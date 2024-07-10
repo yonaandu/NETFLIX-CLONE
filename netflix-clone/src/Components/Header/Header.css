@@ -1,0 +1,44 @@
+.headercontainer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  background-color: transparent;
+}
+.headercontainer ul li a :hover {
+  color: pink;
+}
+.headercontainer ul li a {
+  padding: 12px;
+}
+.imagelogo {
+  padding-top: 3px;
+}
+.headercontainer ul li {
+  margin-top: 25px;
+}
+.headerleft ul {
+  display: flex;
+  /* padding: 10px; */
+
+  list-style: none;
+  text-decoration: none;
+}
+.headerleft ul li a {
+  width: 100%;
+
+  justify-content: space-between;
+  text-decoration: none;
+}
+.headerright ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 40px;
+  justify-content: space-between;
+}
+.headerright ul li a {
+  text-decoration: none;
+  justify-content: space-between;
+}

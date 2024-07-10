@@ -1,0 +1,46 @@
+import React from 'react'
+import  "../Header/Header.css"
+import Netflixlogo from "../../assets/images/Netflix-Logo.png"
+import SearchIcon from '@mui/icons-material/Search';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
+const Header = () => {
+  return (
+    <div className='headercontainer'>
+<div className='headerleft'>
+    <ul>
+        <li className='imagelogo'><img src={Netflixlogo} width="100"></img></li>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#'>TV Shows</a></li>
+        <li><a href='#'>Movies</a></li>
+        <li><a href='#'>New&Popular</a></li>
+        <li><a href='#'>My List</a></li>
+        <li><a href='#'>Browse by Language</a></li>
+
+        
+    </ul>
+
+</div>
+<div className='headerright'>
+  <ul>
+    <li><a href='#'><SearchIcon/></a></li>
+    <li><a href='#'>Kids</a></li>
+    <li><a href='#'><NotificationsNoneIcon /></a></li>
+     <li><a href='#'><AccountBoxIcon/></a></li>
+    <li><a href='#'><ArrowDropDownIcon/></a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+    </div>
+        
+  )
+}
+
+export default Header
