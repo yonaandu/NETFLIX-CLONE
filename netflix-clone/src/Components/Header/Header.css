@@ -44,3 +44,19 @@ a :hover {
 li :hover {
   color: gray;
 }
+@media screen and (max-width: 576px) {
+  .headerinnercontainer {
+    display: flex;
+    flex-direction: column !important;
+    height: auto;
+  }
+  .headerleft ul li a:not(:first-child) {
+    display: none;
+  }
+  .headerleft ul li a {
+    display: none;
+  }
+  .headercontainer {
+    height: 15px;
+  }
+}
